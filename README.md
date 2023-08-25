@@ -1,10 +1,8 @@
 # TrashBin
-   Proiectul este compus din 2 circuite, unul format dintr-o placă Arduino Mega 2560 și componentele compatibile cu aceasta, iar celălalt este format din componentele industriale. Legătura dintre aceste 2 circuite este făcută prin intermediul releelor.
-	 
-	 
-	 
-   Atunci când te apropii de coș, senzorul ultrasonic detectează mișcare, iar prima trapă este deschisă cu ajutorul servomotorului. În funcție de ce deșeu este introdus, a doua trapă este rotită 90° spre dreapta sau spre stânga de cel de-al doilea servomotor, dacă deșeul este metal, respectiv plastic.
-	 
-   Deșeurile sunt detectate cu ajutorul senzorilor industriali capacitiv și inductiv. Recipientul coșului are 2 compartimente, fiecare fiind dotat cu câte un senzor ultrasonic. Acesta semnalează atunci când compartimentul este plin, moment în care prima trapă a coșului nu se va mai deschide. 
- 
-   Pentru afișajul nivelului și cantității deșeurilor din cele două compartimente s-a folosit  aplicația IoT Blynk.
+  The project is composed of 2 circuits, one consisting of an Arduino Mega 2560 board and its compatible components, and the other consisting of industrial components. The connection between these 2 circuits is made by relays.
+
+When you approach the trash, the ultrasonic sensor detects movement, and the first hatch is opened with the help of the servomotor. Depending on which waste is inserted, the second hatch is rotated 90° to the right or to the left by the second servomotor, if the waste is metal or plastic, respectively.
+
+Waste is detected using capacitive and inductive industrial sensors. The trash container has 2 compartments, each equipped with an ultrasonic sensor. It signals when the compartment is full, at which point the first bin hatch will no longer open.
+
+The Blynk IoT application was used to display the level and amount of waste in the two compartments.
